@@ -3,7 +3,7 @@ trait Trait {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -14,7 +14,7 @@ impl Trait for S0 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -33,7 +33,7 @@ impl Trait for S1 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -52,7 +52,7 @@ impl Trait for S2 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -71,7 +71,7 @@ impl Trait for S3 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -90,7 +90,7 @@ impl Trait for S4 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -109,7 +109,7 @@ impl Trait for S5 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -128,7 +128,7 @@ impl Trait for S6 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -147,7 +147,7 @@ impl Trait for S7 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -166,7 +166,7 @@ impl Trait for S8 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -185,7 +185,7 @@ impl Trait for S9 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -204,7 +204,7 @@ impl Trait for S10 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -223,7 +223,7 @@ impl Trait for S11 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -242,7 +242,7 @@ impl Trait for S12 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -261,7 +261,7 @@ impl Trait for S13 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -280,7 +280,7 @@ impl Trait for S14 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -299,7 +299,7 @@ impl Trait for S15 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -318,7 +318,7 @@ impl Trait for S16 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -337,7 +337,7 @@ impl Trait for S17 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -356,7 +356,7 @@ impl Trait for S18 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -375,7 +375,7 @@ impl Trait for S19 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -394,7 +394,7 @@ impl Trait for S20 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -413,7 +413,7 @@ impl Trait for S21 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -432,7 +432,7 @@ impl Trait for S22 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -451,7 +451,7 @@ impl Trait for S23 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -470,7 +470,7 @@ impl Trait for S24 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -489,7 +489,7 @@ impl Trait for S25 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -508,7 +508,7 @@ impl Trait for S26 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -527,7 +527,7 @@ impl Trait for S27 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -546,7 +546,7 @@ impl Trait for S28 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,
@@ -565,7 +565,7 @@ impl Trait for S29 {
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
-        Box<dyn ::core::future::Future<Output = ()> + ::core::marker::Send + 'async_trait>,
+        Box<dyn ::core::future::Future<Output = ()> + 'async_trait>,
     >
     where
         'life0: 'async_trait,

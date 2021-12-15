@@ -1,6 +1,4 @@
 pub async fn entry_point() {
-    let x = X9::new();
-    x.f().await;
 }
 
 async fn term_async() -> u32 {

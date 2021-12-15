@@ -1,6 +1,5 @@
 trait Trait {
     #[must_use]
-    #[allow(clippy::type_complexity, clippy::type_repetition_in_bounds)]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -12,12 +11,6 @@ trait Trait {
 }
 pub struct S0;
 impl Trait for S0 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -37,12 +30,6 @@ impl Trait for S0 {
 }
 pub struct S1;
 impl Trait for S1 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -62,12 +49,6 @@ impl Trait for S1 {
 }
 pub struct S2;
 impl Trait for S2 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -87,12 +68,6 @@ impl Trait for S2 {
 }
 pub struct S3;
 impl Trait for S3 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -112,12 +87,6 @@ impl Trait for S3 {
 }
 pub struct S4;
 impl Trait for S4 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -137,12 +106,6 @@ impl Trait for S4 {
 }
 pub struct S5;
 impl Trait for S5 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -162,12 +125,6 @@ impl Trait for S5 {
 }
 pub struct S6;
 impl Trait for S6 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -187,12 +144,6 @@ impl Trait for S6 {
 }
 pub struct S7;
 impl Trait for S7 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -212,12 +163,6 @@ impl Trait for S7 {
 }
 pub struct S8;
 impl Trait for S8 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -237,12 +182,6 @@ impl Trait for S8 {
 }
 pub struct S9;
 impl Trait for S9 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -262,12 +201,6 @@ impl Trait for S9 {
 }
 pub struct S10;
 impl Trait for S10 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -287,12 +220,6 @@ impl Trait for S10 {
 }
 pub struct S11;
 impl Trait for S11 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -312,12 +239,6 @@ impl Trait for S11 {
 }
 pub struct S12;
 impl Trait for S12 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -337,12 +258,6 @@ impl Trait for S12 {
 }
 pub struct S13;
 impl Trait for S13 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -362,12 +277,6 @@ impl Trait for S13 {
 }
 pub struct S14;
 impl Trait for S14 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -387,12 +296,6 @@ impl Trait for S14 {
 }
 pub struct S15;
 impl Trait for S15 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -412,12 +315,6 @@ impl Trait for S15 {
 }
 pub struct S16;
 impl Trait for S16 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -437,12 +334,6 @@ impl Trait for S16 {
 }
 pub struct S17;
 impl Trait for S17 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -462,12 +353,6 @@ impl Trait for S17 {
 }
 pub struct S18;
 impl Trait for S18 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -487,12 +372,6 @@ impl Trait for S18 {
 }
 pub struct S19;
 impl Trait for S19 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -512,12 +391,6 @@ impl Trait for S19 {
 }
 pub struct S20;
 impl Trait for S20 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -537,12 +410,6 @@ impl Trait for S20 {
 }
 pub struct S21;
 impl Trait for S21 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -562,12 +429,6 @@ impl Trait for S21 {
 }
 pub struct S22;
 impl Trait for S22 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -587,12 +448,6 @@ impl Trait for S22 {
 }
 pub struct S23;
 impl Trait for S23 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -612,12 +467,6 @@ impl Trait for S23 {
 }
 pub struct S24;
 impl Trait for S24 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -637,12 +486,6 @@ impl Trait for S24 {
 }
 pub struct S25;
 impl Trait for S25 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -662,12 +505,6 @@ impl Trait for S25 {
 }
 pub struct S26;
 impl Trait for S26 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -687,12 +524,6 @@ impl Trait for S26 {
 }
 pub struct S27;
 impl Trait for S27 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -712,12 +543,6 @@ impl Trait for S27 {
 }
 pub struct S28;
 impl Trait for S28 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<
@@ -737,12 +562,6 @@ impl Trait for S28 {
 }
 pub struct S29;
 impl Trait for S29 {
-    #[allow(
-        clippy::let_unit_value,
-        clippy::type_complexity,
-        clippy::type_repetition_in_bounds,
-        clippy::used_underscore_binding
-    )]
     fn f<'life0, 'async_trait>(
         &'life0 self,
     ) -> ::core::pin::Pin<

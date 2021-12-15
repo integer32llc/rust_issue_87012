@@ -23,7 +23,7 @@ impl Trait for S0 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -42,7 +42,7 @@ impl Trait for S1 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -61,7 +61,7 @@ impl Trait for S2 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -80,7 +80,7 @@ impl Trait for S3 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -99,7 +99,7 @@ impl Trait for S4 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -118,7 +118,7 @@ impl Trait for S5 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -137,7 +137,7 @@ impl Trait for S6 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -156,7 +156,7 @@ impl Trait for S7 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -175,7 +175,7 @@ impl Trait for S8 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -194,7 +194,7 @@ impl Trait for S9 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -213,7 +213,7 @@ impl Trait for S10 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -232,7 +232,7 @@ impl Trait for S11 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -251,7 +251,7 @@ impl Trait for S12 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -270,7 +270,7 @@ impl Trait for S13 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -289,7 +289,7 @@ impl Trait for S14 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -308,7 +308,7 @@ impl Trait for S15 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -327,7 +327,7 @@ impl Trait for S16 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -346,7 +346,7 @@ impl Trait for S17 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -365,7 +365,7 @@ impl Trait for S18 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -384,7 +384,7 @@ impl Trait for S19 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -403,7 +403,7 @@ impl Trait for S20 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -422,7 +422,7 @@ impl Trait for S21 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -441,7 +441,7 @@ impl Trait for S22 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -460,7 +460,7 @@ impl Trait for S23 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -479,7 +479,7 @@ impl Trait for S24 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -498,7 +498,7 @@ impl Trait for S25 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -517,7 +517,7 @@ impl Trait for S26 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -536,7 +536,7 @@ impl Trait for S27 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -555,7 +555,7 @@ impl Trait for S28 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }
@@ -574,7 +574,7 @@ impl Trait for S29 {
         Box::pin(async move {
             let __self = self;
             let _: () = {
-                helper_crate::entry_point().await;
+                futures::future::ready(()).await;
             };
         })
     }

@@ -1,5 +1,6 @@
-[workspace]
-members = [
-    "repro_crate",
-    "helper_crate",
-]
+[package]
+name = "repro_crate"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]

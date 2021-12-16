@@ -3,12 +3,5 @@
 version = 3
 
 [[package]]
-name = "helper_crate"
-version = "0.1.0"
-
-[[package]]
 name = "repro_crate"
 version = "0.1.0"
-dependencies = [
- "helper_crate",
-]

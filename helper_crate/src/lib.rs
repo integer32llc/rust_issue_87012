@@ -1,5 +1,5 @@
 pub async fn entry_point() {
-    let x = X24::new();
+    let x = X23::new();
     x.f().await;
 }
 
@@ -336,20 +336,6 @@ impl X23 {
     fn new() -> Self {
         Self {
             x: X22::new(),
-        }
-    }
-
-    async fn f(&self) -> u32 {
-        term_sync() + self.x.f().await
-    }
-}
-struct X24 {
-    x: X23,
-}
-impl X24 {
-    fn new() -> Self {
-        Self {
-            x: X23::new(),
         }
     }
 

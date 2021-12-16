@@ -4,7 +4,8 @@ shopt -s extglob
 
 echo "# Varying number of params/lifetimes
 
-| # of params/lifetimes | Item                                             | Self time | % of total time | Time     | Item count | Incremental result hashing time |" > vary-params-lifetimes-results.md
+| # of params/lifetimes | Item                                             | Self time | % of total time | Time     | Item count | Incremental result hashing time |
+|---|--------------------------------------------------|-----------|-----------------|----------|------------|---------------------------------|" > vary-params-lifetimes-results.md
 
 for NUM_PARAMS in {1..30}
 do

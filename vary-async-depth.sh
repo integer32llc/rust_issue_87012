@@ -4,7 +4,8 @@ shopt -s extglob
 
 echo "# Varying number of async functions called
 
-| # of async fns | Item                                             | Self time | % of total time | Time     | Item count | Incremental result hashing time |" > vary-async-depth-results.md
+| # of async fns | Item                                             | Self time | % of total time | Time     | Item count | Incremental result hashing time |
+|---|--------------------------------------------------|-----------|-----------------|----------|------------|---------------------------------|" > vary-async-depth-results.md
 
 for MAX_DEPTH in {1..30}
 do

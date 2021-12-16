@@ -17,7 +17,8 @@ trait Trait {
 
 echo "# Varying number of trait implementations
 
-| # of trait impls | Item                                             | Self time | % of total time | Time     | Item count | Incremental result hashing time |" > vary-trait-impls-results.md
+| # of trait impls | Item                                             | Self time | % of total time | Time     | Item count | Incremental result hashing time |
+|---|--------------------------------------------------|-----------|-----------------|----------|------------|---------------------------------|" > vary-trait-impls-results.md
 
 for NUM_IMPLS in {0..30}
 do

@@ -1,3 +1,5 @@
+#![recursion_limit = "256"]
+
 trait Trait {
     #[must_use]
     fn f<'life0, 'async_trait>(
